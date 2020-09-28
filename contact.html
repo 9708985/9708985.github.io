@@ -4,6 +4,7 @@
 <head>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49159794-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -159,7 +160,7 @@
             </ul>
             <!-- Dynamic content-->
                   <h4></h4>
-                  <center><img src="./bigoffer/php/images/bo-slider/bo-slider2.jpg" data-thumb="" alt="" title=""/></center>
+                  <center><img src="./bigoffer/php/images/bo-slider/windows.jpg" data-thumb="" alt="" title=""/></center>
                     </div>
               </div>
             
@@ -226,7 +227,7 @@
             
             
             <form id="submit-form" action="">
-            <input type="hidden" name="formID" value="10092020" />
+            <input type="hidden" name="formID" value="28092020" />
             <div class="form-all">
             <ul class="form-section">
             <li class="form-line" data-type="control_textbox" id="id_3">
@@ -304,7 +305,7 @@
               $("#submit-form").submit((e)=>{
               e.preventDefault()
               $.ajax({
-              url:"====",
+              url:"https://script.google.com/macros/s/AKfycbzQEjojiG-i_1Cl6tZsNNyCAi8oBJ_8uE9bsDU6/exec",
               data:$("#submit-form").serialize(),
               method:"post",
               success:function (response){
